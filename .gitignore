@@ -164,3 +164,7 @@ cython_debug/
 
 # Ignore data
 artifacts/*
+
+# Ignore results
+scores.json
+mlruns/*

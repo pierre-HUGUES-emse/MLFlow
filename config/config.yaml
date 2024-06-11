@@ -14,4 +14,8 @@ prepare_base_model:
 
 training:
   root_dir: artifacts/training
+  training_data: artifacts/data_ingestion/Chest-CT-Scan-data
   trained_model_path: artifacts/training/model.h5
+
+mlflow:
+  mlflow_uri: "http://127.0.0.1:5000"
